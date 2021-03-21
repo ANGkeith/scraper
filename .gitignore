@@ -1,0 +1,10 @@
+.mypy_cache/
+*.log
+*__pycache__/
+*.ipynb_checkpoints/
+*.env*
+*tags
+.venv
+
+# allow this
+!.env.sample

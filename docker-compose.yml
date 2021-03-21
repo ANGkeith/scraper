@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  scraper:
+    build:
+      context: .
+    shm_size: "3gb"
+    env_file:
+      - .env
